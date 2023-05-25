@@ -1,0 +1,86 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F8F8F8;
+
+ }
+
+  .signhead {
+    display: flex;
+    align-items: center;
+   font: inter;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 24px 30px;
+    padding-bottom: 24px !important;
+    line-height: 29.05px; 
+ }
+
+ .signIcon {
+  display: flex;
+    align-items: center;
+  margin-right: 10px;
+  font-weight: 600;
+ }
+
+ .emailInput, .passwordInput, .submitBtn, .guestBtn {
+   padding-bottom: 24px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+
+ 
+ .inputField {
+  height: 38px;
+  width: 278px;
+  left: 0px;
+  top: 5px;
+  border-radius: 16px;
+  padding: 14px 12px 14px 12px;
+  border: 1px solid #BBBBC4;
+  color: #54546B;
+ }
+ .passwordInput {
+  padding-bottom: 5px !important;
+ }
+
+ .forgotPassword {
+  font-size: 14px;
+  padding-left: 30px;
+  line-height: 16.94px;
+  margin-bottom: 30px;
+
+ }
+
+ .passwordPosition {
+   margin-bottom: 10px;
+ }
+
+ .submitBtn1 {
+  Width: 278px;
+Height: 56px;
+Top: 247px;
+Left: 18px;
+  border-radius: 16px;
+  border: none;
+  padding: 8px 24px 8px 24px;
+  background: #FA5A00;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+ }
+
+ .guestBtn1 {
+  height: 57px;
+  width: 278px;
+  left: 14px;
+  top: 625px;
+  border-radius: 16px;
+  padding: 8px 24px 8px 24px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #BBBBC4, #BBBBC4);
+  border: 1px solid #BBBBC4  
+ }
