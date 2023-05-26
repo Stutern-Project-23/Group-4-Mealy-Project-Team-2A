@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { BsArrowLeft } from 'react-icons/bs';
+import SocialMedia from "./SocialMedia";
 import "./signin.css";
 
 
@@ -74,7 +75,9 @@ import "./signin.css";
                 <Heading />
                 <Form />
                 <SubmitButton />
+                <SocialMedia />
                 <GuestButton />
+                
             </section>
         )
     }
