@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { BsArrowLeft } from 'react-icons/bs';
+import SocialMedia from "./SocialMedia";
 import signinBackground from "./assets/signin.png";
 import "./signin.css";
 
@@ -97,7 +98,9 @@ export const SigninRight = ({background}) => {
                 <Heading />
                 <Form />
                 <SubmitButton />
+                <SocialMedia />
                 <GuestButton />
+                
             </section>
         )
     }

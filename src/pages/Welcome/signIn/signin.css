@@ -111,5 +111,39 @@ Left: 18px;
   border-radius: 0px;
 
 }
+.social-media-wrapper{
+  width: 23%;
+  margin-left: 20px;
+  text-align: center; 
+  font: inter;
+  font-size: 13px;
+}
+ .social-media-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+ }
+ .social-media-icons a{
+  margin: 10px;
+ }
+ .sign-in-using{
+  margin-top: 20px;
+  font: inter;
+ }
+ .account-creation-wrapper{
+  margin-bottom: 30px;
+ }
+ .account{
+  font-weight: 600;
+ }
+ /* @media(min-width:376px) and (max-width:426px) {
+  .forgotPassword {
+     display: flex;
+  justify-content: start;
+  text-align: left !important;
+    padding-left: 100px !important;
+  }
    
  }
