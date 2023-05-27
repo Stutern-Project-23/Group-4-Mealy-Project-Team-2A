@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import SignIn from './pages/Welcome/signIn/Signin';
+import SigninRight from './pages/Welcome/signIn/Signin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignIn />
+    <SigninRight />
   </React.StrictMode>
 );
 

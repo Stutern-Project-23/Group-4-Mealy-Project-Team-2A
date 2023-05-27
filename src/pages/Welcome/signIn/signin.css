@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     background: #F8F8F8;
+ }
 
+ .logo {
+  display: none;
  }
 
   .signhead {
@@ -86,7 +89,7 @@ Left: 18px;
   border: 1px solid #BBBBC4  
  }
 
-.social-media-wrapper{
+ .social-media-wrapper{
   width: 23%;
   margin-left: 20px;
   text-align: center; 
@@ -113,12 +116,111 @@ Left: 18px;
  .account{
   font-weight: 600;
  }
- /* @media(min-width:376px) and (max-width:426px) {
-  .forgotPassword {
+
+
+  @media(min-width:769px)  {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #F8F8F8;
+      overflow-y: hidden;
+   }
+  
+    .rightSection {
      display: flex;
-  justify-content: start;
-  text-align: left !important;
-    padding-left: 100px !important;
+     position: absolute;
+      min-width: 49%;
+      min-height: 100%;
+      margin-left: 758px;
+    }
+
+    .leftSection {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+      width: 50%;
+      min-height: 100vh;
+    
+    }
+
+    .logo {
+      display: block;
+      padding-top: 20px;
+      padding-left: 30px;
+    }
+
+    .signIcon {
+      display: none;
+    }
+
+    .signhead {
+      text-align: left !important;
+      align-items: flex-start !important;
+      align-content: start !important;
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 44px;
+      letter-spacing: 0em;
+    }
+
+    .guestBtn1 {
+      border: none;
+      background: #F8F8F8;
+      color: #FA5A00;
+      text-decoration: underline;
+      margin-bottom: 50px !important;
+    }
+
+    .inputField {
+      height: 38px;
+      width: 278px;
+      left: 0px;
+      top: 5px;
+      padding: 14px 12px 14px 12px;
+      border: 1px solid #BBBBC4;
+      background: white;
+      border: 1px solid #BBBBC4;
+      border-radius: 16px
+     }
+}
+
+@media (min-width:768px) {
+  .rightSection {
+    display: flex;
+    position: absolute;
+     min-width: 49%;
+     min-height: 100vh;
+     margin-left: 758px;
+   }
+
+   .logo {
+    display: block;
+    padding-top: 20px;
+    padding-left: 30px;
   }
-   
- }*/
+
+  .leftSection {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-width: 50vw !important;
+    min-height: 100vh;
+  
+  }
+
+  .guestBtn1 {
+    border: none;
+    background: #F8F8F8;
+    color: #FA5A00;
+    text-decoration: underline;
+    margin-bottom: 50px !important;
+  }
+  
+}
+ 
