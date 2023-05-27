@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { BsArrowLeft } from 'react-icons/bs';
 import SocialMedia from "./SocialMedia";
+import LogoIcon from "./assets/MEALY.png";
 import signinBackground from "./assets/signin.png";
 import "./signin.css";
 
@@ -22,9 +23,19 @@ export const SigninRight = ({background}) => {
             background: `url(${background})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
+            backgroundRepeat: "no-repeat",
+            order: "2"
             }}>
         </div>
+    )
+}
+
+export const Logo = () => {
+    return (
+        <div className="logo">
+            <img src={LogoIcon} alt="logo icon"/>
+        </div>
+
     )
 }
 
@@ -94,7 +105,11 @@ export const SigninRight = ({background}) => {
 
   export  const SigninLeft = () => {
         return (
-            <section className= "leftSection">
+            <div className="">
+                <Logo />
+                
+           
+            <section className= "leftSection">   
                 <Heading />
                 <Form />
                 <SubmitButton />
@@ -102,6 +117,7 @@ export const SigninRight = ({background}) => {
                 <GuestButton />
                 
             </section>
+            </div>
         )
     }
     export default SignIn;
