@@ -1,8 +1,31 @@
 import React from 'react';
 import { useState } from 'react';
 import { BsArrowLeft } from 'react-icons/bs';
+import signinBackground from "./assets/signin.png";
 import "./signin.css";
 
+
+const SignIn = () => {
+    const accountType = "talent";
+    return (
+        <section className="mealySignin">
+            <SigninRight background={signinBackground} />
+            <SigninLeft account = {accountType} />
+        </section>
+        )
+}
+
+export const SigninRight = ({background}) => {
+    return (
+        <div className= "rightSection" style={{
+            background: `url(${background})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat"
+            }}>
+        </div>
+    )
+}
 
  const Heading  = () => {
     return (
@@ -68,9 +91,9 @@ import "./signin.css";
     )
     }
 
-    const SignIn = () => {
+  export  const SigninLeft = () => {
         return (
-            <section className='bodyDimension'>
+            <section className= "leftSection">
                 <Heading />
                 <Form />
                 <SubmitButton />
