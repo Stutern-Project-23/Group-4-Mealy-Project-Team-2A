@@ -12,6 +12,7 @@ body {
   color: black;
   margin: 50px 75px;
   font-weight: 800;
+  border: 2px solid red;
 }
 .container {
   display: flex;
@@ -22,8 +23,10 @@ body {
   font-family: "Inter", sans-serif;
   color: #32324d;
   background-color: whitesmoke;
+  border: 2px solid red;
 }
 .mainSection {
+  border: 2px solid red;
   margin: 150px 0 0 200px;
   display: flex;
   flex-direction: column;
@@ -34,12 +37,14 @@ body {
   font-weight: 600;
   font-size: 26px;
   line-height: 44px;
+  border: 2px solid red;
 }
 .maincaption {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   margin: 8px 0 50px 0;
+  border: 2px solid red;
 }
 input,
 input::placeholder {
@@ -54,6 +59,7 @@ input {
   border: 1px solid #bbbbc4;
   border-radius: 14px;
   outline: none;
+  border: 2px solid red;
 }
 
 button {
@@ -71,6 +77,8 @@ button {
 }
 .rightSection {
   width: 50%;
+  border: 2px solid red;
+  /* margin: 0; */
 }
 img {
   width: 100%;

@@ -5,6 +5,8 @@ import SocialMedia from "./SocialMedia";
 import LogoIcon from "./assets/MEALY.png";
 import signinBackground from "./assets/signin.png";
 import "./signin.css";
+import "../accountVerification/AccountVerification.css"
+import "../accountVerification/ReuseableComponents.css"
 
 
 const SignIn = () => {
