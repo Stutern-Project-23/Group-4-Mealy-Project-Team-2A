@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../images/verification-image.png";
-import "../components/ReusableComponents.css";
+import "../accountVerification/ReuseableComponents.css";
 import "../accountVerification/AccountVerification.css";
 const RightSection = () => {
   return (

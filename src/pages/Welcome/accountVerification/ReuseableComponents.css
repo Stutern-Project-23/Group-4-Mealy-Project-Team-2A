@@ -10,9 +10,10 @@ body {
   font-size: 40px;
   line-height: 58px;
   color: black;
-  margin: 50px 75px;
   font-weight: 800;
-  border: 2px solid red;
+  position: relative;
+  top: -170px;
+  left: -235px;
 }
 .container {
   display: flex;
@@ -23,28 +24,23 @@ body {
   font-family: "Inter", sans-serif;
   color: #32324d;
   background-color: whitesmoke;
-  border: 2px solid red;
 }
 .mainSection {
-  border: 2px solid red;
-  margin: 150px 0 0 200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .mainheading {
   font-weight: 600;
   font-size: 26px;
   line-height: 44px;
-  border: 2px solid red;
+  text-align: left;
 }
 .maincaption {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 8px 0 50px 0;
-  border: 2px solid red;
+  margin: 8px 0 40px 0;
 }
 input,
 input::placeholder {
@@ -53,13 +49,13 @@ input::placeholder {
 }
 input {
   background: white;
-  width: 275px;
-  height: 10px;
-  padding: 14px 12px;
+  width: 290px;
+  padding: 12px 12px;
   border: 1px solid #bbbbc4;
   border-radius: 14px;
   outline: none;
-  border: 2px solid red;
+  display: flex;
+  align-items: left;
 }
 
 button {
@@ -77,8 +73,6 @@ button {
 }
 .rightSection {
   width: 50%;
-  border: 2px solid red;
-  /* margin: 0; */
 }
 img {
   width: 100%;

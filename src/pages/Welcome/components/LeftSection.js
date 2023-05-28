@@ -1,11 +1,9 @@
 import React from "react";
-
 import MainCaption from "./MainCaption";
 import Input from "./Input";
 import Button from "./Button";
 import "../accountVerification/ReuseableComponents.css";
 import "../accountVerification/AccountVerification.css";
-
 import MainHeading from "./MainHeading";
 import Logo from "./Logo";
 

@@ -1,7 +1,6 @@
 import React from "react";
-
-import LeftSection from "../components/LeftSection";
 import RightSection from "../components/RightSection";
+import LeftSection from "../components/LeftSection";
 
 const AccountVerification = () => {
   return (
