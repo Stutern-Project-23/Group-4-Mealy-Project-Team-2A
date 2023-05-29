@@ -1,5 +1,5 @@
 import React from "react";
-import "./ReuseableComponents.css";
+import "../accountVerification/ReuseableComponents.css";
 
 const MainCaption = (props) => {
   return (

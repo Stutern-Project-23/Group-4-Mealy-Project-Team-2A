@@ -10,8 +10,10 @@ body {
   font-size: 40px;
   line-height: 58px;
   color: black;
-  margin: 50px 75px;
   font-weight: 800;
+  position: relative;
+  top: -170px;
+  left: -235px;
 }
 .container {
   display: flex;
@@ -24,22 +26,21 @@ body {
   background-color: whitesmoke;
 }
 .mainSection {
-  margin: 150px 0 0 200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .mainheading {
   font-weight: 600;
   font-size: 26px;
   line-height: 44px;
+  text-align: left;
 }
 .maincaption {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 8px 0 50px 0;
+  margin: 8px 0 40px 0;
 }
 input,
 input::placeholder {
@@ -48,12 +49,13 @@ input::placeholder {
 }
 input {
   background: white;
-  width: 275px;
-  height: 10px;
-  padding: 14px 12px;
+  width: 290px;
+  padding: 12px 12px;
   border: 1px solid #bbbbc4;
   border-radius: 14px;
   outline: none;
+  display: flex;
+  align-items: left;
 }
 
 button {

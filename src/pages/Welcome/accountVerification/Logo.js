@@ -1,5 +1,5 @@
 import React from "react";
-import "../accountVerification/ReuseableComponents.css";
+import "../styles/ReuseableComponents.css";
 
 const Logo = () => {
   return (
