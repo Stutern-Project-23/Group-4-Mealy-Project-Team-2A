@@ -11,14 +11,6 @@ const ForgotPassword = () => {
     e.preventDefault();
   };
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setMessage("");
-  //   }, 3000);
-
-  //   return () => clearTimeout(timer);
-  // }, [message]);
-
   return (
    <>
    <div className="container">
