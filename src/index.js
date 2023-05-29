@@ -3,14 +3,16 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
-import SigninRight from "./pages/Welcome/signIn/Signin";
+import SignIn  from "./pages/Welcome/signIn/Signin";
 import AccountVerification from "./pages/Welcome/accountVerification/AccountVerification";
+import ForgotPassword from "./pages/Welcome/forgotPassword/forgotPassword";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <SigninRight /> */}
+    {/* <SignIn /> */}
     <AccountVerification />
+    <ForgotPassword />
   </React.StrictMode>
 );
 
