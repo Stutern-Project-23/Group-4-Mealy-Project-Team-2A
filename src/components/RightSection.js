@@ -7,7 +7,7 @@ const RightSection = () => {
   return (
     <>
       <div className="rightSection">
-        <img src={image} />
+        <img src={image} alt="" />
       </div>
     </>
   );
