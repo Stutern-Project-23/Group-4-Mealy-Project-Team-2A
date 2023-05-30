@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../components/Logo";
-import MainHeading from  "../components/MainHeading";
-import MainCaption from "../components/MainCaption";
-import Input from "../components/Input";
-import Button from "../components/Button";
-import "../components/ReusableComponents.css";
+import Logo from "../../components/Logo";
+import MainHeading from  "../../components/MainHeading";
+import MainCaption from "../../components/MainCaption";
+import Input from "../../components/Input";
+import Button from "../../components/Button";
+
 
 const LeftSection = ()=>{
     return(

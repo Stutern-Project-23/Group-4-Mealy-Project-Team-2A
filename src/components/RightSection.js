@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../assets/verification-image.png";
-import "../styles/ReuseableComponents.css";
-import "../accountVerification/AccountVerification.css";
+import "../styles/ReusableComponents.css";
+
 
 const RightSection = () => {
   return (

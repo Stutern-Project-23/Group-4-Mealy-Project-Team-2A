@@ -2,8 +2,7 @@ import React from "react";
 import MainCaption from "./MainCaption";
 import Input from "./Input";
 import Button from "./Button";
-import "../styles/ReuseableComponents.css";
-import "../accountVerification/AccountVerification.css";
+import "../styles/ReusableComponents.css";
 import MainHeading from "./MainHeading";
 import Logo from "./Logo";
 

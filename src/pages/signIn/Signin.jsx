@@ -1,13 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
 import { BsArrowLeft } from 'react-icons/bs';
 import SocialMedia from "./SocialMedia";
 import LogoIcon from "../../assets/MEALY.png";
 import signinBackground from "../../assets/signin.png";
 import "./signin.css";
-import "../accountVerification/AccountVerification.css"
-import "../accountVerification/ReuseableComponents.css"
+import "../../styles/ReusableComponents.css";
 
 
 const SignIn = () => {
@@ -79,7 +77,7 @@ export const Logo = () => {
                 </div>
             </div>
             <div>
-                   <Link to="forgot-password"><a className="forgotPassword">Forgot Password</a></Link>
+                   <a href="#" className="forgotPassword">Forgot Password</a>
                 </div>
         </form>
     )

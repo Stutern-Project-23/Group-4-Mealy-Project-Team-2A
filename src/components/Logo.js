@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ReuseableComponents.css";
+import "../styles/ReusableComponents.css";
 
 const Logo = () => {
   return (
