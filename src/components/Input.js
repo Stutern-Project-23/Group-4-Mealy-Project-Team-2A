@@ -3,7 +3,7 @@ import React from "react";
 const Input = (props) => {
   return (
     <div>
-      <input placeholder={props.text} />
+      <input type={props.type} placeholder={props.text} className={props.className}/>
     </div>
   );
 };

@@ -77,7 +77,7 @@ export const Logo = () => {
                 </div>
             </div>
             <div>
-                   <a href="#" className="forgotPassword">Forgot Password</a>
+                   <a href="/" className="forgotPassword">Forgot Password</a>
                 </div>
         </form>
     )

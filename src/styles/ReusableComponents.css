@@ -12,9 +12,9 @@ body {
   font-size: 40px;
   line-height: 58px;
   color: black;
-  font-weight: 800;
+  font-weight: 800; 
   position: relative;
-  top: -170px;
+   top: -170px;
   left: -235px;
 }
 
@@ -51,7 +51,7 @@ body {
 
 input,
 input::placeholder {
-  font-size: 11px;
+  font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -67,9 +67,9 @@ input {
 }
 
 button {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   margin: auto;
   background-color: #fa5a00;
   padding: 15px 105px;
