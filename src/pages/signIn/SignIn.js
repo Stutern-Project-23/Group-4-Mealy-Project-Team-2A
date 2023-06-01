@@ -4,7 +4,6 @@ import { BsArrowLeft } from "react-icons/bs";
 import SocialMedia from "./SocialMedia";
 import LogoIcon from "../../assets/MEALY.png";
 import signinBackground from "../../assets/signin.png";
-import "./signin.css";
 
 const SignIn = () => {
   const accountType = "talent";
