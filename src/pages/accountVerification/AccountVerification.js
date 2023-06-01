@@ -1,17 +1,23 @@
 import React from "react";
-import RightSection from "../../components/RightSection";
-import LeftSection from "../../components/LeftSection";
-import "../../styles/ReusableComponents.css";
-import "./AccountVerification.css";
+import { Logo } from "../signIn/SignIn";
+import Image from '../../assets/signin.png'
 
 const AccountVerification = () => {
   return (
-    <>
-      <div className="container">
-        <LeftSection />
-        <RightSection />
-      </div>
-    </>
+    // cointainer
+     <div className="flex">
+      {/* left section */}
+    <div className="w-1/2">
+      <Logo />
+    <h2>AccountVerification</h2>
+    </div>
+
+    {/* image section */}
+<div className="w-1/2">
+  <img src={Image} alt="" />
+</div>
+   </div>
+  
   );
 };
 

@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/ReusableComponents.css";
+
 
 const Logo = () => {
   return (
     <>
-      <div className="logo">MEALY</div>
+      <div className="text-black font-extrabold font-4xl">MEALY</div>
     </>
   );
 };

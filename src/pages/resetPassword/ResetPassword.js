@@ -18,8 +18,8 @@ const ResetPassword = () => {
           </h2>
 
           {/* new password fields */}
-          <Input type="password" text="New Password" className="mt-8"/>
-          <Input type="password" text="Confirm Password" className="mt-4" />
+          <Input type="password" placeholder="New Password" className="mt-8"/>
+          <Input type="password" placeholder="Confirm Password" className="mt-4" />
 
           {/* button */}
           <Button text="Reset Password" className="mt-24" />

@@ -9,9 +9,9 @@ const SocialMedia = () => {
         <p>Or</p><p/>
         <p className='sign-in-using'>Sign In using</p>
         <div className='social-media-icons'>
-          <a href="#"><img src={apple} alt="apple icon"/></a>
-          <a href="#"><img src={google} alt="google icon"/></a>
-          <a href="#"><img src={facebook} alt="facebook icon"/></a>
+          <a href="/"><img src={apple} alt="apple icon"/></a>
+          <a href="/"><img src={google} alt="google icon"/></a>
+          <a href="/"><img src={facebook} alt="facebook icon"/></a>
         </div>
         <p className='account-creation-wrapper'>Don't have an account? <span className='account'>Sign Up</span></p>
     </div>
