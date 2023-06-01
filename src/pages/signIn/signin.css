@@ -89,33 +89,7 @@ Left: 18px;
   border: 1px solid #BBBBC4  
  }
 
- .social-media-wrapper{
-  width: 23%;
-  margin-left: 20px;
-  text-align: center; 
-  font: inter;
-  font-size: 13px;
-}
- .social-media-icons{
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
- }
- .social-media-icons a{
-  margin: 10px;
- }
- .sign-in-using{
-  margin-top: 20px;
-  font: inter;
- }
- .account-creation-wrapper{
-  margin-bottom: 30px;
- }
- .account{
-  font-weight: 600;
- }
+ 
 
 
   @media(min-width:769px)  {
@@ -124,7 +98,7 @@ Left: 18px;
       padding: 0;
       box-sizing: border-box;
       background: #F8F8F8;
-      overflow-y: hidden;
+      /* overflow-y: hidden; */
    }
   
     .rightSection {
