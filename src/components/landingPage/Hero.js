@@ -16,9 +16,9 @@ const Hero = () => {
         Guaranteed Swift responsiveness to your orders
       </p>
       <div className="flex justify-between w-80 h-8 bg-white p-2 rounded-lg border-solid border border-black">
-        <img src={Image} />
+        <img src={Image}  alt="" />
         <p>Select your location</p>
-        <img src={Arrow} />
+        <img src={Arrow} alt="" />
       </div>
     </div>
   );
