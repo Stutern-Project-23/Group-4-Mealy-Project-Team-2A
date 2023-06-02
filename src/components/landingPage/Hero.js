@@ -28,6 +28,11 @@ const Hero = () => {
         <div>
           <img src={Arrow} className="mt-2 w-3" />
         </div>
+
+      <div className="flex justify-between w-80 h-8 bg-white p-2 rounded-lg border-solid border border-black">
+        <img src={Image}  alt="" />
+        <p>Select your location</p>
+        <img src={Arrow} alt="" />
       </div>
     </div>
   );
