@@ -10,7 +10,7 @@ const Header = () => {
       <div className="flex justify-between mx-12 mt-5 mb-14">
         <Logo />
         <div className="flex space-x-8  items-center ">
-          <HeaderItems text="Home" />
+          <HeaderItems title="/" text="Home" />
           <HeaderItems text="How to Order" />
           <HeaderItems text="Our Menu" />
           <HeaderItems text="Contact Us" />
