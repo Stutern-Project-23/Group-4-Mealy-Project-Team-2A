@@ -6,7 +6,7 @@ import Button from "../../components/Button.js";
 
 const AccountVerification = () => {
   return (
-    // cointainer
+    // container
     <div className="flex">
       {/* left section */}
       <div className="w-1/2">

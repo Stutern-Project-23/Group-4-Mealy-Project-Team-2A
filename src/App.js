@@ -1,13 +1,13 @@
-import React from 'react-router-dom';
-import './App.css';
-import MainRouter from './router';
+import React from "react-router-dom";
+import "./App.css";
+import MainRouter from "./router";
 
-const App = ()=> {
+const App = () => {
   return (
     <div>
       <MainRouter />
     </div>
   );
-}
+};
 
 export default App;

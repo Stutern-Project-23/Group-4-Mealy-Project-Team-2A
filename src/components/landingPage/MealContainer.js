@@ -4,6 +4,7 @@ import Meal2 from "../../assets/meal2.svg";
 import Meal3 from "../../assets/meal3.svg";
 import HamBurger from "../../assets/hamburger.svg";
 import Button from "../Button";
+import { NavLink } from "react-router-dom";
 
 const MealContainer = () => {
   return (
@@ -12,7 +13,9 @@ const MealContainer = () => {
         <h2 className="text-5xl font-normal tracking-wide w-[580px] mb-8 text-[#1E1E1E]">
           Register and get discount up to 50%
         </h2>
-        <Button text="Create account" />
+        <NavLink to="/signup">
+          <Button text="Create account" />
+        </NavLink>
       </div>
 
       <div className="flex justify-between">

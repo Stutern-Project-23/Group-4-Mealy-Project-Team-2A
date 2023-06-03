@@ -7,7 +7,7 @@ import HeaderButtons from "./HeaderButtons";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between mx-12 mt-5 mb-14">
+      <div className="flex justify-between mx-12 mt-6 mb-14">
         <Logo />
         <div className="flex space-x-8  items-center ">
           <HeaderItems title="/" text="Home" />
