@@ -15,7 +15,7 @@ const LandingPage = () => {
       <Hero />
       <FavoriteOrder />
       <DiscountSection />
-    </>
+    <div/>
       <div className="">
 <MealContainer className="my-4"/>
       </div>

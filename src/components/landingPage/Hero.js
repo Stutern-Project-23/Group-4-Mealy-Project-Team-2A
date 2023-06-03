@@ -12,8 +12,7 @@ const Hero = () => {
         height: "523px",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
-      }}
-    >
+      }}>
       <h2 className="text-5xl font-bold text-white w-5/12 text-center mb-5">
         Order your favorite meal at the comfort of your home
       </h2>
@@ -34,6 +33,7 @@ const Hero = () => {
         <p>Select your location</p>
         <img src={Arrow} alt="" />
       </div>
+    </div>
     </div>
   );
 };
