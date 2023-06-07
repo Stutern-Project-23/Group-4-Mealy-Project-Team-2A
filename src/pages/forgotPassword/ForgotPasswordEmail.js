@@ -22,8 +22,10 @@ import { NavLink } from "react-router-dom";
           </h2>
           {/* Subtitle */}
           <p className="font-normal text-[#32324D] mb-12">
+
             Enter the email associated with your account, and we will send you a
             code to reset it.
+
           </p>
 
           {/* Enter code field */}
