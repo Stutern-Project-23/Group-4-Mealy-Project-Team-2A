@@ -21,7 +21,7 @@ const ForgotPassword = () => {
             Reset Password
           </h2>
           {/* Subtitle */}
-          <p className="font-normal text-[#32324D] mb-12 w-[400px]">
+          <p className="font-normal text-[#32324D] mb-12">
             Enter the email associated with your account and we will send you a
             code to rest it.
           </p>
