@@ -11,7 +11,7 @@ import LandingPage from "./pages/landingPage/LandingPage";
 import Homepage from "./pages/homePage/HomePage";
 import GuestHomepage from "./pages/homePage/GuestHomePage";
 import NavLayout from "./pages/accountsettings/NavLayout";
-import Logout from "./pages/accountsettings/logout/Logout";
+import PageNotFound from "./components/PageNotFound";
 
 const MainRouter = () => {
   return (
@@ -34,7 +34,7 @@ const MainRouter = () => {
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/guesthomepage" element={<GuestHomepage />} />
         <Route path="/accountsettings" element={<NavLayout />} />
-        <Route path="/logout" element={<Logout />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
