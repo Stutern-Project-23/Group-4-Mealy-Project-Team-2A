@@ -9,7 +9,7 @@ const Button = styled.button`
     background-color: ${(props) => (props.$primary ? "#FA5A00" : "white")};
     color: ${(props) => (props.$primary ? "white" : "black")};
   }
-  transition: 0.3s;
+  transition: 0.2s;
   transition-timing-function: ease-in-out;
   font-size: 14px;
   margin: 0.5em;

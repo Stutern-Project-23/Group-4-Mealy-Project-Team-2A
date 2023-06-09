@@ -6,7 +6,7 @@ import Facebook from "../../assets/Facebook.svg";
 
 const Footer = () => {
   return (
-    <div className="h-40 bg-[#FA5A00] flex  gap-32 text-xs text-white pt-6 pl-12 mt-32 ">
+    <div className="hidden h-40 bg-[#FA5A00] lg:flex  gap-32 text-xs text-white pt-6 pl-12 mt-28 ">
       <div>
         <h2 className="text-2xl font-semibold pb-2"> Mealy</h2>
         <p>your fastest and reliable food and drinks delivery partner</p>

@@ -8,21 +8,30 @@ import Img2 from "../../assets/discount-section-img2.svg";
 import Img3 from "../../assets/discount-section-img3.svg";
 import Img4 from "../../assets/discount-section-img4.svg";
 import Img5 from "../../assets/discount-section-img5.svg";
+import DiscountImg from "../../assets/discount-section.png";
 
 const DiscountSection = () => {
   return (
     <>
-      <div className="mb-20 relative">
+      <div className="mx-6 my-10 block lg:hidden">
+        <img src={DiscountImg} />
+      </div>
+      {/* <div className="hidden lg:flex mb-72 mt-20 relative "> */}
+      {/* float right? and margin top foe features  */}
+      <div className="flex  mb-72 mt-20 relative ">
+        <div
+          className="absolute w-full h-full"
+          style={{ backgroundImage: `url(${ChickenImg})` }}
+        ></div>
         <img src={ChickenImg} className="absolute z-10 ml-52 mt-10 " />
-        {/* ml-28 mt-12 */}
 
         <div
           style={{
             backgroundImage: `url(${Shape})`,
             backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
           }}
-          className="h-[23rem] w-[1006px] absolute ml-96 "
-          //   ml-96
+          className="h-[23rem] w-[80%] absolute ml-96 flex flex-col"
         >
           <div className="absolute z-10 text-white mt-32 ml-48">
             <h2 className="font-bold text-4xl w-80 mt-3 mb-6">
@@ -55,6 +64,14 @@ const DiscountSection = () => {
           </h1>
         </div>
       </div>
+      {/* <div
+        style={{
+          width: "30rem",
+          height: "30rem",
+
+          backgroundColor: "red",
+        }}
+      ></div> */}
     </>
   );
 };

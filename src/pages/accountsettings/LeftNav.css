@@ -1,0 +1,28 @@
+.leftNavTabs ul li {
+  padding: 10px 0;
+  width: 35px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.leftNavTabs ul li.active {
+  color: #fa5a00;
+}
+.leftNavTabs ul li:hover {
+  color: #f58544;
+}
+@media screen and (min-width: 1024px) {
+  .leftNavTabs ul li {
+    padding: 10px 0;
+    width: 135px;
+    cursor: pointer;
+    transition: all 0.7s;
+  }
+  .leftNavTabs ul li.active {
+    background: #fa5a00;
+    color: white;
+  }
+  .leftNavTabs ul li:hover {
+    background-color: #fb762b;
+    color: white;
+  }
+}
