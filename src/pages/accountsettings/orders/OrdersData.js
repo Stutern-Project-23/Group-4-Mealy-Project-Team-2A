@@ -47,4 +47,18 @@ export const data = [
     foodOrder1: "1 x Watermelon & Pineapple Juice - 50cl...",
     status: "Cancelled",
   },
+  {
+    id: 7,
+    restaurant: "So Fresh",
+    foodImg: Img3,
+    foodOrder1: "1 x Watermelon & Pineapple Juice - 50cl...",
+    status: "Cancelled",
+  },
+  {
+    id: 8,
+    restaurant: "So Fresh",
+    foodImg: Img3,
+    foodOrder1: "1 x Watermelon & Pineapple Juice - 50cl...",
+    status: "Cancelled",
+  },
 ];

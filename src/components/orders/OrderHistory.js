@@ -5,12 +5,12 @@ const OrderHistory = () => {
   return (
     <div className="border border-solid border-[#32324D] rounded-3xl pl-3 pt-5 mt-10 lg:mt-24 mb-16">
       <h2 className="font-bold">Order History</h2>
-      <div className="flex flex-wrap h-[400px] overflow-scroll gap-y-4 lg:mr-24 gap-x-28 mt-8 mb-10">
+      <div className="flex flex-wrap h-[400px] overflow-scroll gap-y-4 xl:mr-24 gap-x-28 mt-8 mb-10">
         {data.map((item) => {
           return (
             <>
               <div
-                className="flex w-full lg:flex-[25%] gap-x-3 w-[50%]"
+                className="flex w-full gap-x-3 xl:max-w-[43%]"
                 style={{
                   boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.2)",
                   padding: "15px 9px 7px 15px",
