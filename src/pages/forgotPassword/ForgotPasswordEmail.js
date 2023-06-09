@@ -5,29 +5,32 @@ import Input from "../../components/Input.js";
 import Button from "../../components/Button.js";
 import { NavLink } from "react-router-dom";
 
-const ForgotPassword = () => {
+
+ const ForgotPassword = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col lg:flex-row">
       {/* left section */}
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2 bg-white">
         {/* Logo */}
-        <div className="mt-10 ml-14">
+        <div className="mt-10 mx-4 lg:mx-14">
           <Logo />
         </div>
-        {/* border-solid border-2 border-sky-500  */}
-        <div className="flex flex-col justify-center mt-44 ml-48 ">
+        <div className="flex flex-col justify-center mx-4 lg:mx-48 mt-16">
           {/* title */}
-          <h2 className=" text-2xl font-medium mb-4 text-[#32324D]">
+          <h2 className="text-2xl font-medium mb-4 text-[#32324D]">
             Reset Password
           </h2>
           {/* Subtitle */}
           <p className="font-normal text-[#32324D] mb-12">
-            Enter the email associated with your account and we will send you a
-            code to rest it.
+
+            Enter the email associated with your account, and we will send you a
+            code to reset it.
+
           </p>
 
           {/* Enter code field */}
           <Input type="email" placeholder="Enter address" />
+
           {/* button */}
           <div className="mt-20">
             <NavLink to="/forgot-password-verification">
@@ -42,11 +45,12 @@ const ForgotPassword = () => {
       </div>
 
       {/* image section */}
-      <div className="w-1/2">
-        <img src={Image} alt="" className="" />
+      <div className="w-full lg:w-1/2">
+        <img src={Image} alt="" className="w-full h-auto" />
       </div>
     </div>
   );
 };
 
 export default ForgotPassword;
+
