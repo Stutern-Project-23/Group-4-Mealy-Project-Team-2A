@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center h-20 max-w-full mx-6 lg:mx-12 ">
+      <div className="flex justify-between items-center h-20 max-w-full mx-6 lg:mx-12">
         <NavLink to="/">
           <Logo />
         </NavLink>
@@ -43,7 +43,7 @@ const Header = () => {
         <div
           className={
             !nav
-              ? "fixed lg:hidden left-0 top-0 w-[60%] h-full border-r border-r-grey-900 z-10 pl-6 bg-[#f5f5f5] ease-in-out duration-500"
+              ? "fixed lg:hidden left-0 top-0 w-[60%] h-full border-r border-r-grey-900 z-20 pl-6 bg-[#f5f5f5] ease-in-out duration-500"
               : "fixed left-[-100%]"
           }
         >
