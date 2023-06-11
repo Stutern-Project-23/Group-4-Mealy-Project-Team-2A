@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between mt-10 mx-12 mb-14 ">
+      <div className="flex justify-between mt-10 mx-4 lg:mx-12 mb-8 lg:mb-14 ">
         <Logo />
         <HeaderItems />
       </div>

@@ -8,9 +8,9 @@ import { NavLink } from "react-router-dom";
 
 const MealContainer = () => {
   return (
-    <div className=" flex justify-between border bg-[#BDBDBD]  h-60 m-12 p-6">
+    <div className=" flex flex-col lg:flex-row gap-y-10 lg:gap-x-10 items-center justify-center lg:justify-between bg-[#BDBDBD] h-[500px]  lg:h-60 m-6 lg:m-12 p-4 lg:p-6">
       <div className="text-center mt-4">
-        <h2 className="text-5xl font-normal tracking-wide w-[580px] mb-8 text-[#1E1E1E]">
+        <h2 className="text-4xl lg:text-5xl font-normal tracking-wide w-full lg:w-[580px] mb-8 text-[#1E1E1E]">
           Register and get discount up to 50%
         </h2>
         <NavLink to="/signup">
@@ -18,15 +18,15 @@ const MealContainer = () => {
         </NavLink>
       </div>
 
-      <div className="flex justify-between">
-        <div className="mt-6">
-          <h3 className="bg-white px-6 py-0.5 rounded-2xl text-lg mb-4 font-light">
+      <div className="flex justify-between items-center">
+        <div className="mt-0 lg:mt-6">
+          <h3 className="bg-white px-2 lg:px-6 py-0.5 rounded-2xl text-ms text-center lg:text-lg mb-2 lg:mb-4 font-light">
             Want a meal plan?
           </h3>
-          <h3 className="bg-white px-6 py-0.5 rounded-2xl text-lg mb-4 font-light">
+          <h3 className="bg-white px-2 lg:px-6 py-0.5 rounded-2xl text-ms text-center lg:text-lg  mb-2 lg:mb-4 font-light">
             Track meal calorie
           </h3>
-          <h3 className="bg-white px-6 py-0.5 rounded-2xl text-lg mb-4 font-light">
+          <h3 className="bg-white px-2 lg:px-6 py-0.5 rounded-2xl text-ms text-center lg:text-lg  mb-4 font-light">
             Customized meal
           </h3>
         </div>

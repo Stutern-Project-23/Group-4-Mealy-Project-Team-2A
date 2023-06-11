@@ -10,6 +10,8 @@ import ForgotPasswordVerification from "./pages/forgotPassword/ForgotPasswordVer
 import LandingPage from "./pages/landingPage/LandingPage";
 import Homepage from "./pages/homePage/HomePage";
 import GuestHomepage from "./pages/homePage/GuestHomePage";
+import NavLayout from "./pages/accountsettings/NavLayout";
+import PageNotFound from "./components/PageNotFound";
 
 const MainRouter = () => {
   return (
@@ -31,6 +33,8 @@ const MainRouter = () => {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/guesthomepage" element={<GuestHomepage />} />
+        <Route path="/accountsettings" element={<NavLayout />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
