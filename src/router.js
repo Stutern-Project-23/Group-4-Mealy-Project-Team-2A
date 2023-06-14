@@ -10,7 +10,7 @@ import ForgotPasswordVerification from "./pages/forgotPassword/ForgotPasswordVer
 import LandingPage from "./pages/landingPage/LandingPage";
 import Homepage from "./pages/homePage/HomePage";
 import GuestHomepage from "./pages/homePage/GuestHomePage";
-
+import Payment from "./pages/paymentPage/Payment";
 const MainRouter = () => {
   return (
     <div>
@@ -31,6 +31,7 @@ const MainRouter = () => {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/guesthomepage" element={<GuestHomepage />} />
+        <Route path="/PaymentPage" element={<Payment />} />
       </Routes>
     </div>
   );
