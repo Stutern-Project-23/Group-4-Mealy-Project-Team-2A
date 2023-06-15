@@ -19,7 +19,7 @@ import Layout from "../../components/LayoutAlt";
 const Homepage = () => {
   return (
     <Layout>
-      <div className="px-12 ">
+      <div className="px-12 pt-32 ">
         {/* Welcome */}
         <div className="text-center mb-10">
           <h4 className="font-semibold mt-2 text-3xl">Welcome, Amara</h4>

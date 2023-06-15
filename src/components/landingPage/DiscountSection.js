@@ -20,7 +20,7 @@ const DiscountSection = () => {
         ></div>
         <img
           src={ChickenImg}
-          className="absolute z-10 ml-[5%] md:ml-[2%] lg:ml-[15%] mt-[5%] lg:mt-[1%] xl:mt-16 w-[25%] md:w-[27%] lg:w-[29%] xl:w-[25%] "
+          className="absolute z-10 ml-[5%] md:ml-[2%] lg:ml-[15%] xl:ml-[10%] mt-[5%] lg:mt-[1%] xl:mt-16 w-[25%] md:w-[27%] lg:w-[29%] xl:w-[25%] "
         />
 
         <div
@@ -29,9 +29,9 @@ const DiscountSection = () => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
           }}
-          className="h-[23rem] mt-2 w-[70%] md:w-[80%] lg:w-[65%] xl:w-[80%] absolute ml-[24%] md:ml-[16%] lg:ml-[34%] xl:ml-[27%] flex flex-col"
+          className="h-[23rem] mt-2 w-[70%] md:w-[80%] lg:w-[65%] xl:w-[80%] absolute ml-[24%] md:ml-[16%] lg:ml-[34%] xl:ml-[20%] flex flex-col"
         >
-          <div className="absolute z-10 text-white mt-[10%] md:mt-[12%] xl:mt-32 ml-[8%] md:ml-[15%] lg:ml-[14%] xl:ml-48  ">
+          <div className="absolute z-10 text-white mt-[10%] md:mt-[12%] xl:mt-34 ml-[8%] md:ml-[15%] lg:ml-[14%] xl:ml-[19%]  ">
             <h2 className="font-bold text-xs sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl w-[80%] mt-3 mb-2 md:mb-6 leading-3 sm:leading-6">
               Great food and lots of discounted prices
             </h2>
