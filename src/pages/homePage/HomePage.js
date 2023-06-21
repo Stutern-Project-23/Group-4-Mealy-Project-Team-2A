@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from 'react';
+import Tabs from './TabComponents/Tabs';
 import categoriespic1 from "../../assets/homePage/categoriespic1.svg";
 import categoriespic2 from "../../assets/homePage/categoriespic2.svg";
 import categoriespic3 from "../../assets/homePage/categoriespic3.svg";
@@ -16,7 +17,7 @@ import arrow from "../../assets/homePage/arrow.svg";
 import { Data } from "./HomePageData.js";
 import Layout from "../../components/LayoutAlt";
 
-const Homepage = () => {
+  const Homepage = () => {
   return (
     <Layout>
       <div className="px-12 pt-32 ">
@@ -112,77 +113,11 @@ const Homepage = () => {
           <p className="my-4 ml-2 text-lg tracking-wide mb-3 mt-16">
             All Restaurants
           </p>
-          <ul
-            className="flex flex-row justify-between items-center bg-white px-4 mt-8"
-            style={{ boxShadow: "0px 1px 8px rgba(0, 0, 0, 0.08)" }}
-          >
-            <li className="bg-white font-light text-lg">Order Again</li>
-            <li className="bg-[#FA5A00] px-12 py-2 my-2">
-              <button className="text-white font-semibold text-lg">All</button>
-            </li>
-            <li className="bg-white font-light text-lg">African</li>
-            <li className="bg-white font-light text-lg">African</li>
-            <li className="bg-white font-light text-lg">African</li>
-            <li className="bg-white font-light text-lg">African</li>
-            <li className="bg-white font-light text-lg">African</li>
-            <li className="bg-white font-light text-lg">African</li>
-          </ul>
         </div>
-        <div className="m-5">
-          <ul className="grid grid-rows-5 grid-flow-col gap-4 mt-12 overflow-auto">
-            {Data.map((card) => {
-              return (
-                <li key={card.id} className="bg-white p-3">
-                  <img src={tasteeImg} alt="food" className="bg-white p-0.2" />
-                  <h3 className="font-bold text-xl mt-2 bg-white tracking-wide">
-                    {card.label}
-                  </h3>
-                  <div className="flex flex-row gap-1 mt-3 bg-white">
-                    <img
-                      src={FullRating}
-                      alt="full ratings"
-                      className="w-5 bg-white"
-                    />
-                    <img
-                      src={FullRating}
-                      alt="full ratings"
-                      className="w-5 bg-white"
-                    />
-                    <img
-                      src={FullRating}
-                      alt="full ratings"
-                      className="w-5 bg-white"
-                    />
-                    <img
-                      src={FullRating}
-                      alt="full ratings"
-                      className="w-5 bg-white"
-                    />
-                    <img
-                      src={NoRating}
-                      alt="no ratings"
-                      className="w-5 bg-white"
-                    />
-                    <p className="text-xs bg-white text-[#32324D] ">
-                      Reviews (220)
-                    </p>
-                  </div>
-                  <div className="flex flex-row mt-4">
-                    <p className="text-sm pr-4 bg-white text-xs text-[#32324D]">
-                      {card.description}
-                    </p>
-                    <a href="#" className="mt-3 w-10">
-                      <img src={arrow} alt="more info" />
-                    </a>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        <Tabs />
       </div>
     </Layout>
   );
-};
+}       
 
 export default Homepage;
