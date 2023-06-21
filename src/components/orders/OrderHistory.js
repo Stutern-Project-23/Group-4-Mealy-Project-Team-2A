@@ -3,17 +3,18 @@ import { data } from "../../pages/accountsettings/orders/OrdersData";
 
 const OrderHistory = () => {
   return (
-    <div className="border border-solid border-[#32324D] rounded-3xl pl-3 pt-5 mt-10 lg:mt-24 mb-16">
-      <h2 className="font-bold">Order History</h2>
-      <div className="flex flex-wrap h-[400px] overflow-scroll gap-y-4 xl:mr-24 gap-x-28 mt-8 mb-10">
+    <div className="border-2 border-solid border-grey-600 rounded-3xl pt-5 mt-10 lg:mt-24 mb-16">
+      <h2 className="font-bold ml-5">Order History</h2>
+      <div className="flex flex-wrap h-[392px] overflow-scroll gap-y-4 xl:mr-20 gap-x-16 mt-3 mb-6 pt-3">
         {data.map((item) => {
           return (
             <>
               <div
-                className="flex w-full gap-x-3 xl:max-w-[43%]"
+                className="flex w-full gap-x-3 xl:max-w-[43%] ml-5 mr-2"
                 style={{
-                  boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.2)",
-                  padding: "15px 9px 7px 15px",
+                  boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
+                  padding: "15px 15px 7px 15px",
+                  // margin: "5px 0 0 10px",
                 }}
               >
                 <img src={item.foodImg} />

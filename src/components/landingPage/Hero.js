@@ -6,10 +6,10 @@ import HeroImg from "../../assets/HeroImg.png";
 const Hero = () => {
   return (
     <div
-      className="flex items-center justify-center"
+      className="flex items-center justify-center pt-16"
       style={{
         backgroundImage: `url(${HeroImg})`,
-        height: "423px",
+        height: "500px",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}

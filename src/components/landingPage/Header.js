@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center h-20 max-w-full mx-6 lg:mx-12">
+      <div className=" flex fixed bg-white z-20 justify-between items-center h-20 w-full px-6 lg:px-12">
         <NavLink to="/">
           <Logo />
         </NavLink>
