@@ -2,14 +2,17 @@ export const Data = [
   {
     id: 1,
     label: "Tastee",
+    tasteeImg: "../assets",
     title: "african",
-    description:
-      "Basmati rice with chicken chunks and often other savory ingredients ",
+    titlee: "Order again",
+    description: "Basmati rice with chicken chunks and often other savory ingredients ",
+    arrow: "../../assets/homePage/arrow.svg"
   },
   {
     id: 2,
     label: "Tastee",
     title: "american",
+    titlee: "All",
     description:
       "Basmati rice with chicken chunks and often other savory ingredients ",
   },
