@@ -13,13 +13,13 @@ const Salad = ({id, activeTab, children}) => {
                 <h3 className="font-bold text-xl mt-2 bg-white tracking-wide">
                     Salad
                   </h3>
-                  <div className="flex flex-row gap-1 mt-3 bg-white">
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={NoRating} alt="no ratings" className="w-5 bg-white"/>
-                    <p className="text-xs bg-white text-[#32324D] ">Reviews (220)</p>
+                  <div className="flex flex-row gap-1 mt-1 bg-white">
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={NoRating} alt="no ratings" className="w-3 bg-white"/>
+                    <p className="text-xs bg-white text-[#32324D] ">#1200</p>
                   </div>
                   <div className="flex flex-row justify-between items-center mt-4">
                     <p className="text-sm pr-4 bg-white text-xs text-[#32324D]">
@@ -35,13 +35,13 @@ const Salad = ({id, activeTab, children}) => {
                 <h3 className="font-bold text-xl mt-2 bg-white tracking-wide">
                     Salad
                   </h3>
-                  <div className="flex flex-row gap-1 mt-3 bg-white">
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={NoRating} alt="no ratings" className="w-5 bg-white"/>
-                    <p className="text-xs bg-white text-[#32324D] ">Reviews (220)</p>
+                  <div className="flex flex-row gap-1 mt-1 bg-white">
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={NoRating} alt="no ratings" className="w-3 bg-white"/>
+                    <p className="text-xs bg-white text-[#32324D] ">#1200</p>
                   </div>
                   <div className="flex flex-row justify-between items-center mt-4">
                     <p className="text-sm pr-4 bg-white text-xs text-[#32324D]">
@@ -57,13 +57,13 @@ const Salad = ({id, activeTab, children}) => {
                 <h3 className="font-bold text-xl mt-2 bg-white tracking-wide">
                     Salad
                   </h3>
-                  <div className="flex flex-row gap-1 mt-3 bg-white">
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={NoRating} alt="no ratings" className="w-5 bg-white"/>
-                    <p className="text-xs bg-white text-[#32324D] ">Reviews (220)</p>
+                  <div className="flex flex-row gap-1 mt-1 bg-white">
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={NoRating} alt="no ratings" className="w-3 bg-white"/>
+                    <p className="text-xs bg-white text-[#32324D] ">#1200</p>
                   </div>
                   <div className="flex flex-row justify-between items-center mt-4">
                     <p className="text-sm pr-4 bg-white text-xs text-[#32324D]">
