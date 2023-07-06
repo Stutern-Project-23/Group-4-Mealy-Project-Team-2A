@@ -6,13 +6,15 @@ const Profile = () => {
   return(
     <>
     <h1 className="font-bold my-8">My profile</h1>
-    <div className=" border border-solid border-[#32324D] rounded-3xl shadow-md px-10 py-10 mb-5">
-      <div> <img className="" src=""/></div> 
+    <div className="flex space-x-20 border border-solid border-grey-600 rounded-3xl shadow-md px-10 py-10 mb-5">
+      <div> <img className="h-20 rounded" src="https://i.pinimg.com/236x/f3/5f/20/f35f20c6ccc8f8b1b6bcc57801894246.jpg"/></div> 
+     <div>
       <p className="font-bold">Amara Chukwu</p>
       <h3 className="">Lagos, Nigeria</h3>
+      </div> 
     </div>
 
-    <div className="border border-solid border-[#32324D] rounded-3xl shadow-md pl-10 mb-5">
+    <div className="border border-solid border-grey-600 rounded-3xl shadow-md pl-10 mb-5">
       <h2 className="font-bold my-8">Personal information</h2>
       <div className="flex space-x-20">
         <div>
@@ -34,15 +36,15 @@ const Profile = () => {
 
     </div>
 
- <div className="border border-solid border-[#32324D] rounded-3xl shadow-md pl-10 mb-5">
+ <div className="border border-solid border-grey-600 rounded-3xl shadow-md pl-10 mb-5">
  <h2 className="font-bold my-8">Addresses</h2>
-      <div className="flex space-x-25">
+      <div className="flex space-x-20">
         <div>
           <h3>Country</h3>
           <p className="mb-8 font-bold">Nigeria</p>
 
           <h3>Street/Number</h3>
-          <p className="mb-8 font-bold">St. Finbarrs Road 73</p>
+          <p className="mb-8 font-bold">St. Finbarrs Road, House 73</p>
         </div>
 
         <div>

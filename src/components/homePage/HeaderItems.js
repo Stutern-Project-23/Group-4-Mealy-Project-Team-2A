@@ -4,6 +4,7 @@ import Arrow from "../../assets/arrow.svg";
 import Profile from "../../assets/homePage/profile.svg";
 import ShoppingBag from "../../assets/homePage/shoppingbag.svg";
 import NotificationBell from "../../assets/homePage/notification.svg";
+import { NavLink } from "react-router-dom";
 
 const HeaderItems = () => {
   return (
@@ -26,10 +27,12 @@ const HeaderItems = () => {
           <img src={Arrow} className="h-2" />
         </div>
       </div>
+      <NavLink to='/accountsettings'>
       <img
         src={Profile}
         className="w-[30px] h-[30px] lg:w-[36px] lg:h-[36px]"
       />
+      </NavLink>
       <img
         src={ShoppingBag}
         className="w-[22px] h-[22px] lg:w-[28px] lg:h-[28px]"
