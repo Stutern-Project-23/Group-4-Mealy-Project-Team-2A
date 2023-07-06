@@ -16,12 +16,12 @@ const All = ({id, activeTab, children}) => {
                   <h3 className="font-bold text-xl mt-2 bg-white tracking-wide">
                     {card.label}
                   </h3>
-                  <div className="flex flex-row gap-1 mt-3 bg-white">
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={FullRating} alt="full ratings" className="w-5 bg-white"/>
-                    <img src={NoRating} alt="no ratings" className="w-5 bg-white"/>
+                  <div className="flex flex-row gap-1 mt-1 bg-white">
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={FullRating} alt="full ratings" className="w-3 bg-white"/>
+                    <img src={NoRating} alt="no ratings" className="w-3 bg-white"/>
                     <p className="text-xs bg-white text-[#32324D] ">Reviews (220)</p>
                   </div>
                   <div className="flex flex-row mt-4">
