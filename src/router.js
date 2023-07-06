@@ -41,5 +41,3 @@ const MainRouter = () => {
 };
 
 export default MainRouter;
-
-//         <Route path="/forgot-password" element={<ForgotPassword />} />
