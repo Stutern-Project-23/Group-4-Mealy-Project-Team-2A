@@ -12,6 +12,7 @@ import Homepage from "./pages/homePage/HomePage";
 import GuestHomepage from "./pages/homePage/GuestHomePage";
 import NavLayout from "./pages/accountsettings/NavLayout";
 import PageNotFound from "./components/PageNotFound";
+import OrderTracking from "./pages/orderTracking/orderTracking";
 
 const MainRouter = () => {
   return (
@@ -35,6 +36,7 @@ const MainRouter = () => {
         <Route path="/guesthomepage" element={<GuestHomepage />} />
         <Route path="/accountsettings" element={<NavLayout />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/order-tracking" element={<OrderTracking />} />
       </Routes>
     </div>
   );
