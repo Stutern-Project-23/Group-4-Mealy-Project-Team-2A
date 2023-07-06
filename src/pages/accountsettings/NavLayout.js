@@ -12,7 +12,7 @@ import { MdPayment } from "react-icons/md";
 import { AiOutlineDelete } from "react-icons/ai";
 
 const NavLayout = () => {
-  const [activeTab, setActiveTab] = useState("tab2");
+  const [activeTab, setActiveTab] = useState("tab1");
   const [showModal, setShowModal] = useState(false);
   //  Functions to handle Tab Switching
   const handleTab1 = () => {
@@ -43,7 +43,7 @@ const NavLayout = () => {
           <h2 className="font-semibold text-xl lg:text-2xl">
             Account Settings
           </h2>
-          <div className="border-2 border-solid border-grey-600 pt-6 pl-0 lg:pl-4 rounded-3xl mt-6 lg:mt-10 flex flex-col lg:flex-row">
+          <div className="border-2 border-solid border-grey-600 pt-6 pl-0 lg:pl-4 rounded-3xl mt-6 lg:mt-10 flex flex-col lg:flex-row ">
             <div className="leftNavTabs">
               <ul className="hidden border-r border-r-solid border-r-[#32324D80] pr-6 h-full pt-4 lg:flex flex-col gap-y-2.5 text-sm ">
                 <li
@@ -103,7 +103,7 @@ const NavLayout = () => {
                 </li>
               </ul>
             </div>
-            <div className="outlet px-2 lg:px-24 w-full overflow-auto">
+            <div className="outlet px-2 lg:px-24 w-full">
               {activeTab === "tab1" && <Profile />}
               {activeTab === "tab2" && <Orders />}
               {activeTab === "tab3" && <Payments />}
