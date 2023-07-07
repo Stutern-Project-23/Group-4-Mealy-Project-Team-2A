@@ -94,7 +94,7 @@ import React, { useState } from 'react'
             </div>
         </Layout>
       )
-    }
+    };
     
-    export default MenuList
+    export default MenuList;
 
