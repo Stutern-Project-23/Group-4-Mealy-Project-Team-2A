@@ -46,7 +46,10 @@ import Combos from "../homePage/AllTabs/Combos";
 
 const MenuList = () => {
   const [activeTab, setActiveTab] = useState("tab1");
-
+  const [showModal, setShowModal] = useState(false);
+  const openLogoutModal = () => {
+    setShowModal((prev) => !prev);
+  };
   return (
     <Layout>
       <div className="p-7">
