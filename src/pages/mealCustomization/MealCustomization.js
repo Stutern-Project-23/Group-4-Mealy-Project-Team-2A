@@ -142,7 +142,7 @@ const MealCustomization = ({ showModal, setShowModal }) => {
                           <Extras />
                         </div>
                         <div className="flex justify-between ml-0 sm:ml-6 mt-8 p-0.5 border border-solid border-[#9898A6] bg-white rounded-xl">
-                          <p className="text-[#767688] text-sm pl-2 my-auto">
+                          <p className="text-[#767688] text-sm pl-2 my-auto cursor-default">
                             #33, 067
                           </p>
                           <button className="text-xs font-medium rounded-lg">
