@@ -8,6 +8,7 @@ import google from "../../assets/google.svg";
 import facebook from "../../assets/facebookIcon.svg";
 import { NavLink } from "react-router-dom";
 import "../signup/checkbox.css";
+
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

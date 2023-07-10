@@ -39,7 +39,7 @@ const CircleProgressBar = ({
         stroke={progressColor}
       />
       <text
-        className="progress__width"
+        className="text-xl"
         x="50%"
         y="40%"
         dominantBaseline="middle"
@@ -48,7 +48,7 @@ const CircleProgressBar = ({
         {progressMinutes}
       </text>
       <text
-        className="circle-progress-bar-text "
+        className="text-xs "
         x="50%"
         y="65%"
         dominantBaseline="middle"
